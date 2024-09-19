@@ -1,7 +1,7 @@
 package sendmail.section01.com;
 
 public class Discord extends MessagePlatform{
-    private String username;
+    private final String username;
 
     public Discord(String username) {
         this.username = username;

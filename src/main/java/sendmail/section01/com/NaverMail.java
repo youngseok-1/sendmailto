@@ -1,7 +1,7 @@
 package sendmail.section01.com;
 
 public class NaverMail extends  MessagePlatform{
-    private String email;
+    private final String email;
 
     public NaverMail(String email) {
         this.email = email;

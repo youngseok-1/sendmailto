@@ -1,7 +1,7 @@
 package sendmail.section01.com;
 
 public class  Gmail  extends MessagePlatform{
-    private String email;
+    private final String email;
 
     public Gmail(String email) {
         this.email = email;
