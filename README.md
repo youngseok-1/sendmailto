@@ -20,10 +20,10 @@ Discord : youngseok0129_58520<br>
 java
 
 MessagePlatform gmail = new Gmail();
-gmail.sendMessage("whdudtjr0@gmail.com", "Hello from Gmail!");
+gmail.sendMessage("whdudtjr0@gmail.com", "지메일로 보냅니다");
 
 MessagePlatform naver = new NaverMail();
-naver.sendMessage("dse113@naver.com", "Hello from Naver!");
+naver.sendMessage("dse113@naver.com", "네이버로 보냅니다");
 
 MessagePlatform discord = new Discord();
-discord.sendMessage("youngseok0129_58520", "Hello from Discord!");
+discord.sendMessage("youngseok0129_58520", "디스코드로 보냅니다");
